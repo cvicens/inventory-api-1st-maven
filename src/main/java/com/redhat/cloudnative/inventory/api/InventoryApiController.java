@@ -10,7 +10,6 @@ import org.springframework.web.context.request.NativeWebRequest;
 
 import io.micrometer.core.instrument.Metrics;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;

@@ -2,15 +2,12 @@ package com.redhat.cloudnative.inventory.model;
 
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
 
 /**
  * The root of the InventoryItem type&#39;s schema.
