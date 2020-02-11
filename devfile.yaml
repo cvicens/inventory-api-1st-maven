@@ -7,7 +7,7 @@ projects:
     source:
       location: 'https://github.com/cvicens/inventory-api-1st-maven.git'
       type: git
-      branch: master
+      branch: solution
 components:
   - id: redhat/java/latest
     memoryLimit: 1512Mi
