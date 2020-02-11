@@ -3,6 +3,11 @@
 
 # Use this file to prevent files from being overwritten by the generator.
 # The patterns follow closely to .gitignore or .dockerignore.
+*Impl.java
+InventoryApiController.java
+InventoryItem.java
+OpenAPIDocumentationConfig.java
+application*.properties
 
 # As an example, the C# client generator defines ApiClient.cs.
 # You can make changes and tell OpenAPI Generator to ignore just this file by uncommenting the following line:

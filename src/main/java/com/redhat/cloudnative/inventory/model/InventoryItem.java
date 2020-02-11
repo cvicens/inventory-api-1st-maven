@@ -6,6 +6,9 @@ import com.fasterxml.jackson.annotation.JsonCreator;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.validation.Valid;
 import javax.validation.constraints.*;
 
@@ -14,10 +17,11 @@ import javax.validation.constraints.*;
  */
 @ApiModel(description = "The root of the InventoryItem type's schema.")
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-07-04T00:30:25.754+03:00[Asia/Riyadh]")
-
+@Entity(name = "Inventory")
 public class InventoryItem  implements Serializable {
   private static final long serialVersionUID = 1L;
 
+  @Id
   @JsonProperty("itemId")
   private String itemId;
 
